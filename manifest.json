@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Talkie",
     "version": "0.1.1",
-    "description": "Transform your meet to a walkie talkie. Just enter a meet url and let 'Talkie' do the boring stuff. Once you entered the meeting press and hold <Space> to talk.",
+    "description": "Transform your meet to a walkie talkie. Just enter a meet url and let 'Talkie' do the boring stuff. Once you get in, press and hold <Space> to talk.",
     "web_accessible_resources": [
         "resources/**"
     ],
