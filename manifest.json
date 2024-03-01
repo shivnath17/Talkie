@@ -1,22 +1,24 @@
 {
-    "manifest_version": 2,
-    "name": "Talkie",
-    "version": "0.1.2",
-    "description": "Turn your meet to a walkie-talkie.",
-    "web_accessible_resources": [
-        "resources/**"
-    ],
-    "content_scripts": [
-        {
-          "matches": [
-            "https://meet.google.com/*"
-          ],
-          "js": ["src/js/script.js"]
-        }
-    ],
-    "icons": {
-        "16": "src/img/talkie_16.png",
-        "32": "src/img/talkie_32.png",
-        "128": "src/img/talkie_128.png"
-    }
+  "manifest_version": 3,
+  "name": "Talkie",
+  "version": "0.1.2",
+  "description": "Turn your meet to a walkie-talkie.",
+
+  "web_accessible_resources": [{
+    "resources": ["src/js/script.js"],
+    "matches": ["https://meet.google.com/*"]
+  }],
+  "content_scripts": [
+      {
+        "matches": [
+          "https://meet.google.com/*"
+        ],
+        "js": ["src/js/script.js"]
+      }
+  ],
+  "icons": {
+      "16": "src/img/talkie_16.png",
+      "32": "src/img/talkie_32.png",
+      "128": "src/img/talkie_128.png"
+  }
 }
